@@ -1,0 +1,30 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.tabsModule{
+	margin: 0 auto;
+	display: table;
+	width: 100%;
+	max-width: 980px;			
+}
+
+.theContent > * {
+	display:none;
+}
+
+.tabsModule > .theContent > .active{
+	display:block !important;
+}
+
+.tabsControl > *{
+	display:inline-block;
+	cursor: pointer;
+	padding: 3%;
+	background:#ccc;
+}
+
+.tabsControl > .active{
+	background:#777;
+}
