@@ -4,8 +4,8 @@ need to add the class "autoTabsModule" for the container<br />
 and the class "tabsContent" for the tabs content container<br />
 the title for the tabs is generated in the tabs content element<br />
 via "data-tabs-title" attribute<br />
-<br />
-<code>
+
+```
 <div class="autoTabsModule">
     <div class="tabsContent">
         <div data-tabs-title="title 1">content 1</div>
@@ -14,5 +14,4 @@ via "data-tabs-title" attribute<br />
         <div data-tabs-title="title 4">content 4</div>				
     </div>
 </div>
-</code>
-
+```
