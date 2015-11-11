@@ -1,11 +1,18 @@
 # javascript-automatic-tab-module
 creates tabs with few lines of code<br />
-need to add the class "tabsModule" for the container<br />
-and the class "tabsControl" for the tabs themself<br />
-and finally add the class "theContent" for the show and hide content<br />
+need to add the class "autoTabsModule" for the container<br />
+and the class "tabsContent" for the tabs content container<br />
+the title for the tabs is generated in the tabs content element<br />
+via "data-tabs-title" attribute<br />
 <br />
-the javascript runs without any global varibles and comparing the tabs element with the content to show element by the order<br />
-of the elements in the DOM<br />
-it adds an "active" class when new tab is click<br />
-no need for any other id or class just keep the order of the tabs and content you want to show the same
+<code>
+<div class="autoTabsModule">
+    <div class="tabsContent">
+        <div data-tabs-title="title 1">content 1</div>
+        <div data-tabs-title="title 2">content 2</div>
+        <div data-tabs-title="title 3">content 3</div>
+        <div data-tabs-title="title 4">content 4</div>				
+    </div>
+</div>
+</code>
 

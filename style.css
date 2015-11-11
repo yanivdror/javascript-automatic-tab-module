@@ -3,18 +3,18 @@
 	padding:0;
 }
 
-.tabsModule{
+.autoTabsModule{
 	margin: 0 auto;
 	display: table;
 	width: 100%;
 	max-width: 980px;			
 }
 
-.theContent > * {
+.tabsContent > * {
 	display:none;
 }
 
-.tabsModule > .theContent > .active{
+.autoTabsModule > .tabsContent > .active{
 	display:block !important;
 }
 
